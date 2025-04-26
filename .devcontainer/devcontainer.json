@@ -8,7 +8,7 @@
     "SHELL": "/bin/sh"
   },
   "overrideCommand": false,
-  "postCreateCommand": "npx pnpm install",
+  "postCreateCommand": "npx --yes pnpm install",
   "forwardPorts": [4321],
   "customizations": {
     "vscode": {

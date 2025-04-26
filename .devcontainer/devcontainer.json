@@ -1,8 +1,8 @@
 {
   "name": "Astro Devcontainer",
-  "dockerComposeFile": "../docker-compose.yml",
+  "dockerComposeFile": ["../docker-compose.yml"],
   "service": "astro-app",
-  "workspaceFolder": "/app",
+  "workspaceFolder": "/workspaces/template-astro-flisol",
   "postCreateCommand": "npm install -g pnpm && pnpm install",
   "forwardPorts": [4321],
   "customizations": {

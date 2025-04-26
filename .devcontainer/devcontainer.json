@@ -1,0 +1,13 @@
+{
+  "name": "Astro Devcontainer",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "astro-app",
+  "workspaceFolder": "/app",
+  "postCreateCommand": "npm install -g pnpm && pnpm install",
+  "forwardPorts": [4321],
+  "customizations": {
+    "vscode": {
+      "extensions": ["astro-build.astro-vscode", "esbenp.prettier-vscode"]
+    }
+  }
+}

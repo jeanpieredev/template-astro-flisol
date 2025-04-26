@@ -8,7 +8,7 @@
     "SHELL": "/bin/sh"
   },
   "overrideCommand": false,
-  "postCreateCommand": "npm install -g pnpm && pnpm install",
+  "postCreateCommand": "pnpm install",
   "forwardPorts": [4321],
   "customizations": {
     "vscode": {

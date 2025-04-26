@@ -3,6 +3,11 @@
   "dockerComposeFile": ["../docker-compose.yml"],
   "service": "astro-app",
   "workspaceFolder": "/workspaces/template-astro-flisol",
+  "remoteUser": "node",
+  "remoteEnv": {
+    "SHELL": "/bin/sh"
+  },
+  "overrideCommand": false,
   "postCreateCommand": "npm install -g pnpm && pnpm install",
   "forwardPorts": [4321],
   "customizations": {
